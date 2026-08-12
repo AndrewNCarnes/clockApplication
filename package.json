@@ -1,6 +1,6 @@
 {
   "name": "clock-timer-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Windows desktop clock, multi-timer, focus timer, and stand-up reminder app",
   "author": "Andrew Carnes",
   "license": "MIT",
@@ -44,7 +44,9 @@
       "target": [
         {
           "target": "nsis",
-          "arch": ["x64"]
+          "arch": [
+            "x64"
+          ]
         }
       ],
       "icon": "build/icon.ico"
